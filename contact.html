@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2W2CTJNM8Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2W2CTJNM8Y');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - XR Sphere</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+      <div class="container navbar-inner">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="XR Sphere Logo"></a>
+        </div>
+
+        <!-- hamburger for small screens -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav-links" id="primary-nav">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Fill out the form or reach us directly.</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mnnbnndq" method="POST" class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Reach Us Directly</h3>
+        <p><strong>Email:</strong> <a href="mailto:xrsphere@gmail.com">xrsphere@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+91 78926 17033">+91 7892617033</a></p>
+
+        <!-- Map -->
+        <div class="map-container">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1234!2d77.57553!3d13.057757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670b1234567%3A0x123abc456def7890!2sKodigehalli%2C%20Bengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          width="100%" height="300" style="border:0;"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© 2025 XR Sphere | All Rights Reserved</p>
+        <p>Bengaluru, India</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.linkedin.com/company/xrsphere/?viewAsMember=true" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
